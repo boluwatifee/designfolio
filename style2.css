@@ -1,0 +1,147 @@
+body{
+    margin: 2px 50px;
+    justify-content: center;
+}
+.image img{
+    width: 100%;
+}
+.content1{
+    padding: 20px 100px;
+}
+.content1 hr{
+    width: 100%;
+    border: 0.2px solid rgba(134, 134, 134, 0.776);
+    margin: 40px auto;
+}
+.summary{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+.summary p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.summary span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.flow, .archi{
+    width: 50%;
+}
+.topic{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0;
+    letter-spacing: 0.5px;
+
+}
+.text, .t5{
+    font-size: 16px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+}
+.target, .insight{
+    padding: 20px 0;
+    line-height: 35px;
+}
+.t1{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.t2{
+    font-size: 16px;
+}
+
+li{
+    list-style-type: circle;
+    padding: 0 0 20px 0;
+}
+.user, .map{
+    justify-content: center;
+    margin: 110px;
+    width: 60%;
+    margin-top: 30px;
+}
+.viewbtn{
+    background-color: #9553A0;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    padding: 20px;
+    margin: 0 40%;
+    cursor: pointer;
+}
+.viewbtn:hover{
+    border: 2px solid #9553A0 ;
+    background-color: white;
+    color: #9553A0;
+    
+}
+
+@media screen and (max-width:768px) {
+    body{
+        margin: 0px;
+        justify-content: center;
+    }
+    .content1{
+        padding: 20px 0px;
+    }
+    .summary p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .summary span{
+        font-size: 16px;
+    }
+    .flow, .archi{
+        width: 100%;
+    }
+    .subtitle{
+        font-size: 18px;
+    }
+    .text, .t5{
+        font-size: 16px;
+    }
+    .target, .insight{
+        padding: 20px 0;
+        line-height: 35px;
+    }
+    .t1{
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .t2{
+        font-size: 16px;
+    }
+    .user, .map{
+        width: 85%;
+        margin: 10px;
+    }
+    .viewbtn{
+        font-size: 12px;
+        padding: 15px;
+        margin: 0 70px;
+        cursor: pointer;
+    }
+}
